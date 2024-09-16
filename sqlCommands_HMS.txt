@@ -1,0 +1,25 @@
+show databases
+use hotelmanagementsystem
+show tables
+
+create table login(username varchar(25),password varchar(25))
+insert into login values('admin','12345')
+select * from login
+
+create table employee(name varchar(25),age varchar(10),gender varchar(15),job varchar(30),salary varchar(10),phone varchar(15),email varchar(40),aadhar varchar(20));
+select * from employee
+
+create table addroom(RoomNumber varchar(25),Availability varchar(20),Cleaning_Status varchar(15),Price varchar(10),Bed_Type varchar(20));
+select * from addroom
+
+create table addDriver(Name varchar(25),Age varchar(10),Gender varchar(15),Car_Company varchar(20),Car_Model varchar(20),Availability varchar(10));
+select * from addDriver
+
+create table CustomerForm(id_Type varchar(15),id_number varchar(20),name varchar(40),gender varchar(15),country varchar(30),roomNumber varchar(10),checkInTime varchar(40),deposit varchar(10))
+select * from CustomerForm
+
+create table department(department varchar(30),budget varchar(30));
+select * from department
+
+
+
